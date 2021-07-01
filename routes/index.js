@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 router.get('/test', function(req, res){
   const r = ftest()
   res.send({
-    test: r
+    test: r 
   })
 })
 

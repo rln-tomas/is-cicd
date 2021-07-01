@@ -1,6 +1,6 @@
 const oneTest = require('./oneTest');
 function firstTest (){
-    return oneTest(3); 
+    return oneTest(4); 
 }
 
 module.exports = firstTest; 
